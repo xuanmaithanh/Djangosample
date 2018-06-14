@@ -47,7 +47,7 @@ DEBUG = True
 
 # X_FRAME_OPTIONS = 'DENY'
 
-ALLOWED_HOSTS = ["localhost",".herokuapp.com", ".researchthroughdesign.org"]
+ALLOWED_HOSTS = ["127.0.0.1",".herokuapp.com", ".researchthroughdesign.org"]
 
 
 # Application definition
