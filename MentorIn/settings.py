@@ -26,7 +26,7 @@ import os
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'cg#p$g+j9tax!#a3cup@1$8obt2_+&k3q+pmu)5%asj6yjpkag')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 # DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
 
 # SECURE_HSTS_SECONDS = 1
@@ -45,9 +45,9 @@ DEBUG = False
 
 # SECURE_HSTS_PRELOAD = True
 
-X_FRAME_OPTIONS = 'DENY'
+# X_FRAME_OPTIONS = 'DENY'
 
-ALLOWED_HOSTS = [".herokuapp.com", ".researchthroughdesign.org"]
+ALLOWED_HOSTS = ["localhost",".herokuapp.com", ".researchthroughdesign.org"]
 
 
 # Application definition
